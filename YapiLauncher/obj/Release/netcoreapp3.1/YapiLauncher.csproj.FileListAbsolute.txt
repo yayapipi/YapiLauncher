@@ -16,3 +16,4 @@ D:\YapiProjects\WPF Project\YapiLauncher\YapiLauncher\obj\Release\netcoreapp3.1\
 D:\YapiProjects\WPF Project\YapiLauncher\YapiLauncher\obj\Release\netcoreapp3.1\YapiLauncher.dll
 D:\YapiProjects\WPF Project\YapiLauncher\YapiLauncher\obj\Release\netcoreapp3.1\YapiLauncher.pdb
 D:\YapiProjects\WPF Project\YapiLauncher\YapiLauncher\obj\Release\netcoreapp3.1\YapiLauncher.genruntimeconfig.cache
+D:\YapiProjects\WPF Project\YapiLauncher\YapiLauncher\obj\Release\netcoreapp3.1\YapiLauncher.csprojAssemblyReference.cache

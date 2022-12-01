@@ -8,11 +8,13 @@
 
   <ItemGroup>
     <None Remove="Background.png" />
+    <None Remove="logo.ico" />
     <None Remove="YapiLauncher.png" />
   </ItemGroup>
 
   <ItemGroup>
     <Resource Include="Background.png" />
+    <Resource Include="logo.ico" />
     <Resource Include="YapiLauncher.png" />
   </ItemGroup>
 
