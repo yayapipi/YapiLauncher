@@ -6,4 +6,14 @@
     <UseWPF>true</UseWPF>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="Background.png" />
+    <None Remove="YapiLauncher.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Background.png" />
+    <Resource Include="YapiLauncher.png" />
+  </ItemGroup>
+
 </Project>
