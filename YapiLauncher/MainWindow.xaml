@@ -7,15 +7,29 @@
         mc:Ignorable="d"
         WindowStartupLocation="CenterScreen"
         ContentRendered="Window_ContentRendered"
-        Title="MainWindow" Height="450" Width="800">
+        Title="YapiLauncher" Height="145" Width="600">
     <Grid>
-        <Image x:Name="image" HorizontalAlignment="Center" Source="/YapiLauncher.png" Stretch="UniformToFill" Margin="0,-50,0,-50"/>
-        <TextBlock x:Name="CurrentVersionText" HorizontalAlignment="Left" Margin="439,251,0,0" Text="Current Version: 1.0.0" TextWrapping="Wrap" VerticalAlignment="Top" Height="20" Width="143" FontWeight="Bold" FontStyle="Normal" Foreground="White" AutomationProperties.Name="CurrentVersionText">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="43*"/>
+            <ColumnDefinition Width="11*"/>
+            <ColumnDefinition Width="6*"/>
+            <ColumnDefinition Width="4*"/>
+            <ColumnDefinition Width="72*"/>
+            <ColumnDefinition Width="664*"/>
+        </Grid.ColumnDefinitions>
+        <TextBlock x:Name="CurrentVersionText" HorizontalAlignment="Left" Margin="345,10,0,0" Text="Current Version: 1.0.0" TextWrapping="Wrap" VerticalAlignment="Top" Height="20" Width="143" FontWeight="Bold" FontStyle="Normal" Foreground="Black" AutomationProperties.Name="CurrentVersionText" Grid.Column="5">
             <TextBlock.Style>
                 <Style/>
             </TextBlock.Style>
         </TextBlock>
-        <Button x:Name="StatusBtn" Content="Checking Update ..." HorizontalAlignment="Center" Margin="0,360,0,0" VerticalAlignment="Top" Height="42" Width="780" Background="#FFCCE5AC" Click="StatusBtn_Click" AutomationProperties.Name="StatusBtn"/>
-        <ProgressBar HorizontalAlignment="Center" Height="18" Margin="0,407,0,0" VerticalAlignment="Top" Width="780"/>
+        <ProgressBar HorizontalAlignment="Left" Height="18" Margin="10,85,0,0" VerticalAlignment="Top" Width="569" Grid.ColumnSpan="6" Value="50"/>
+        <TextBlock x:Name="CurrentVersionText_Copy" HorizontalAlignment="Left" Margin="10,53,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="20" Width="143" FontWeight="Bold" FontStyle="Normal" Foreground="Black" AutomationProperties.Name="CurrentVersionText" Grid.ColumnSpan="6">
+            <TextBlock.Style>
+                <Style/>
+            </TextBlock.Style><Run Language="zh-cn" Text="Downloading Project"/></TextBlock>
+        <TextBlock x:Name="CurrentVersionText_Copy1" HorizontalAlignment="Left" Margin="10,28,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="20" Width="143" FontWeight="Bold" FontStyle="Normal" Foreground="Black" AutomationProperties.Name="CurrentVersionText" Grid.ColumnSpan="6">
+            <TextBlock.Style>
+                <Style/>
+            </TextBlock.Style><Run Language="zh-cn" Text="Yapi Launcher"/></TextBlock>
     </Grid>
 </Window>
